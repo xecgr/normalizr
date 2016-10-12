@@ -1,11 +1,13 @@
+from __future__ import absolute_import
+
 import codecs
 import logging
 import os
 import re
 import string
 import unicodedata
-
-import normalizr.regex as regex
+import regex
+import sys
 
 path = os.path.dirname(__file__)
 
